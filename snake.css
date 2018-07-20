@@ -1,0 +1,33 @@
+.row{
+	display: flex;
+	flex-direction: row;
+}
+
+.cell-zero,
+.cell-snake-head,
+.cell-snake-body,
+.cell-food {
+
+    width: 80px;
+    height: 80px;
+	margin-right: -1px;
+	margin-left: -1px;	
+}
+
+.cell-zero{
+    background-image: url(SVG/grass.svg);
+}
+
+.cell-snake-head{
+    background-image: url(SVG/snake-head.svg); 
+	background-repeat: no-repeat;
+	margin-bottom: -1px;
+}
+
+.cell-snake-body{
+    background-image: url(SVG/snake-body.svg);
+}
+
+.cell-food{
+    background-image: url(SVG/dog.svg);
+}
